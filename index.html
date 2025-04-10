@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo - Carte de Visite Interactive</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <style>
+    .profile-photo {
+      transition: transform 0.3s ease;
+    }
+    .profile-photo:hover {
+      transform: scale(1.1);
+    }
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .full-height {
+      height: 100%;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-yellow-200 to-yellow-50 text-gray-800 font-sans full-height">
+  <div class="container mx-auto px-6 py-12 full-height flex items-center justify-center">
+    <div class="max-w-md mx-auto text-center">
+      <img src="assets/IMG_5899.JPEG" alt="Hugo" class="rounded-full shadow-xl mx-auto mb-4 h-40 w-40 object-cover profile-photo">
+      <h1 class="text-3xl font-bold mb-2">Hugo Devries</h1>
+      <p class="mb-4 text-lg">Étudiant en Informatique</p>
+
+      <div class="my-6">
+        <a href="assets/CV Hugo Devries 2024.docx" download class="inline-block bg-blue-600 text-white py-2 px-4 rounded shadow hover:bg-blue-500 transition">Télécharger mon CV</a>
+      </div>
+
+      <div class="mb-6">
+        <h2 class="font-semibold mb-2">Mes coordonnées</h2>
+        <p>Email : <a href="mailto:hugodvrs04@gmail.com" class="text-blue-600 hover:underline">hugodvrs04@gmail.com</a></p>
+        <p>Téléphone : <a href="tel:+32492832708" class="text-blue-600 hover:underline">+32 492 83 27 08</a></p>
+      </div>
+
+      <div class="flex justify-center gap-6 text-2xl">
+        <a href="https://www.linkedin.com/in/hugo-d-424969350/" target="_blank" class="text-blue-600 hover:text-blue-800 transition">
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="https://github.com/hugodvrs4" target="_blank" class="text-gray-700 hover:text-gray-900 transition">
+          <i class="ph ph-github-logo"></i>
+        </a>
+        <a href="https://x.com/hugodvrs4" target="_blank" class="text-black hover:text-gray-800 transition">
+          <i class="ph ph-x-logo"></i>
+        </a>
+        <a href="https://dorahacks.io/hacker/dvrshugo46" target="_blank" class="text-orange-500 hover:text-orange-700 transition">
+          <img src="https://dorahacks.io/favicon.ico" alt="DoraHacks" class="icon-social">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
