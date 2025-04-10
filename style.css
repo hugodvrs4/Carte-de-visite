@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f9fafb, #e5e7eb);
+  color: #507dca;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon-social {
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.icon-social:hover {
+  transform: scale(1.1);
+}
+
+.btn-download {
+  background-color: #4CAF50; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #45a049; /* Couleur au survol */
+}
