@@ -8506,3 +8506,22 @@ textarea.w-input, textarea.w-select {
     grid-column-end: 7;
   }
 }
+
+/* ===== CUSTOM ===== */
+
+/* Photo hero : taille limitée */
+header img {
+  max-height: 85vh;
+  width: auto;
+  display: block;
+  margin-left: auto;
+}
+
+/* Section certifications : contenu centré */
+.ix_sticky-card .max-width_medium {
+  text-align: center;
+}
+
+.ix_sticky-card .button-group {
+  justify-content: center;
+}
