@@ -1,0 +1,7 @@
+# Liste blanche : Vercel ne déploie que les fichiers du site.
+# Tout le reste (README.md, .vscode/, CLAUDE.md…) est exclu.
+/*
+!index.html
+!style.css
+!script.js
+!assets
