@@ -15,4 +15,6 @@ Je suis étudiant en informatique, passionné par la tech, la finance et l'innov
 
 ## Accès
 
-Le site est disponible ici : [hugodvrs4.github.io/Carte-de-visite](https://hugodvrs4.github.io/Carte-de-visite)
+Le site est disponible ici : [hugodevries.be](https://hugodevries.be)
+
+Il est hébergé sur Vercel, derrière Cloudflare. Chaque push sur `main` est mis en production automatiquement.
