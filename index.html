@@ -64,6 +64,74 @@ Vous trouverez ici mon parcours, mes réalisations et mes projets.</p>
   </div>
 </header>
 
+<!-- ==================== PROJETS ==================== -->
+<section id="projets" class="section is-inverse">
+  <div class="container">
+    <div class="header">
+      <div class="eyebrow">Réalisations</div>
+      <h2 class="heading_h2">Projets</h2>
+    </div>
+    <div class="w-layout-grid grid_2-col mobile-l-1-col gap-small">
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Projet personnel</div>
+          <h3>Homelab self-hosted</h3>
+          <p>Objectif : héberger mes propres services à la maison sans ouvrir de ports sur ma connexion. Sur un serveur Ubuntu, j’ai déployé des services conteneurisés avec Docker, dont un cloud personnel et un serveur multimédia, exposés sur Internet via Cloudflare Tunnel, avec un VPN WireGuard pour y accéder à distance. Ce projet me fait pratiquer l’administration Linux, la conteneurisation et la sécurisation des accès.</p>
+          <div class="tag_group">
+            <span class="tag">Linux</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Cloudflare Tunnel</span>
+            <span class="tag">WireGuard</span>
+          </div>
+        </div>
+      </div>
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Projet personnel</div>
+          <h3>Roadbook</h3>
+          <p>Objectif : remplir automatiquement un roadbook de conduite. J’ai développé une application Python qui récupère les trajets depuis l’API Google Maps, ajoute les conditions météo de chaque trajet via une API météo, laisse choisir les trajets à ajouter et les exporte dans le fichier Excel au format demandé. D’abord en ligne de commande, elle est devenue une application web Flask déployée sur mon serveur derrière Gunicorn et Cloudflare Tunnel : un projet mené du script jusqu’à la mise en ligne.</p>
+          <div class="tag_group">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">API Google Maps</span>
+            <span class="tag">API météo</span>
+            <span class="tag">openpyxl</span>
+          </div>
+        </div>
+      </div>
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Hackathon · Oxford · février 2026</div>
+          <h3>LavaPayments</h3>
+          <p>Objectif : payer en stablecoin sans compte ni backend. En équipe avec Noah et Francisco Homero, nous avons réalisé une solution de paiement en USDT0 sur la blockchain Plasma, par QR code ou lien de facture. Un projet conçu en équipe dans le temps limité d’un hackathon.</p>
+          <div class="tag_group">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Plasma</span>
+            <span class="tag">USDT0</span>
+          </div>
+          <div class="button-group">
+            <a href="https://github.com/hugodvrs4/Lava-Payments" target="_blank" rel="noopener noreferrer" class="button is-secondary is-small w-button">Voir le code</a>
+          </div>
+        </div>
+      </div>
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Hackathon · Oxford</div>
+          <h3>PayCoin IC</h3>
+          <p>Objectif : effectuer des transactions en stablecoin depuis un téléphone, par simple scan de QR code. En équipe avec Noah, nous avons réalisé une interface web mobile de transactions en RLUSD sur XRPL. Un projet de hackathon mené en équipe, sur une autre blockchain que LavaPayments.</p>
+          <div class="tag_group">
+            <span class="tag">XRPL</span>
+            <span class="tag">RLUSD</span>
+          </div>
+          <div class="button-group">
+            <a href="https://github.com/hugodvrs4/PayCoin-IC" target="_blank" rel="noopener noreferrer" class="button is-secondary is-small w-button">Voir le code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ================ CERTIFICATIONS ================ -->
 <section class="section is-accent-tertiary">
   <div class="container is-max">

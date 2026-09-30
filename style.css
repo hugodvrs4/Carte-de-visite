@@ -8581,3 +8581,13 @@ body {
   border-radius: 50%;
   background-color: currentColor;
 }
+
+/* Projets : titre rapproché de l'étiquette, lien « Voir le code » en bas de carte */
+.projet-card h3 {
+  margin-top: 0;
+}
+
+.projet-card .button-group {
+  margin-top: auto;
+  padding-top: 1rem;
+}
