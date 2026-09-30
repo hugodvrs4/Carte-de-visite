@@ -8525,3 +8525,59 @@ header img {
 .ix_sticky-card .button-group {
   justify-content: center;
 }
+/* === Ajouts personnalisés === */
+
+/* Carte Compétences et langues : centrée comme la carte Certifications */
+.competences-card .max-width_medium {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competences-card .tag_group {
+  justify-content: center;
+}
+
+/* Les badges longs passent à la ligne au lieu de déborder sur mobile */
+.competences-card .tag {
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Manrope partout : le body Webflow reste en Arial, dont héritaient les
+   titres et textes sans classe typographique (cartes, liens de contact) */
+body {
+  font-family: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1758733331294_typography---font--body-font);
+}
+
+/* Parcours : mini-chronologie en deux cartes au-dessus du bouton du CV */
+.parcours {
+  width: 100%;
+  text-align: left;
+}
+
+.parcours_list {
+  margin-top: 1rem;
+  border-left: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+}
+
+.parcours_item {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.parcours_item + .parcours_item {
+  margin-top: 1.25rem;
+}
+
+/* Point sur le trait vertical, aligné sur la ligne de la date */
+.parcours_item::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: .4em;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
