@@ -8543,3 +8543,9 @@ header img {
   max-width: 100%;
   text-align: center;
 }
+
+/* Manrope partout : le body Webflow reste en Arial, dont héritaient les
+   titres et textes sans classe typographique (cartes, liens de contact) */
+body {
+  font-family: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1758733331294_typography---font--body-font);
+}
