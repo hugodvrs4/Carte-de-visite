@@ -8525,3 +8525,21 @@ header img {
 .ix_sticky-card .button-group {
   justify-content: center;
 }
+/* === Ajouts personnalisés === */
+
+/* Carte Compétences et langues : centrée comme la carte Certifications */
+.competences-card .max-width_medium {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competences-card .tag_group {
+  justify-content: center;
+}
+
+/* Les badges longs passent à la ligne au lieu de déborder sur mobile */
+.competences-card .tag {
+  max-width: 100%;
+  text-align: center;
+}
