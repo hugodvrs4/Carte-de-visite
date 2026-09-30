@@ -5,3 +5,5 @@
 !style.css
 !script.js
 !assets
+# Configuration Vercel (en-têtes HTTP) : doit être lue au déploiement
+!vercel.json
