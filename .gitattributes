@@ -1,0 +1,2 @@
+# vCard : fins de ligne CRLF imposées par la RFC 2426, ne pas convertir.
+*.vcf -text
