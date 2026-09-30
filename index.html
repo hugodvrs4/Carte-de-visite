@@ -59,10 +59,78 @@ Vous trouverez ici mon parcours, mes réalisations et mes projets.</p>
           <a href="assets/cv-hugo-devries.pdf" class="button is-secondary w-button">Télécharger mon CV</a>
         </div>
       </div>
-      <img src="assets/hugo-devries.webp" alt="Photo de Hugo"/>
+      <img src="assets/hugo-devries.webp" alt="Photo de Hugo Devries"/>
     </div>
   </div>
 </header>
+
+<!-- ==================== PROJETS ==================== -->
+<section id="projets" class="section is-inverse">
+  <div class="container">
+    <div class="header">
+      <div class="eyebrow">Réalisations</div>
+      <h2 class="heading_h2">Projets</h2>
+    </div>
+    <div class="w-layout-grid grid_2-col mobile-l-1-col gap-small">
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Projet personnel</div>
+          <h3>Homelab self-hosted</h3>
+          <p>Objectif : héberger mes propres services à la maison en limitant l’exposition de ma connexion. Sur un serveur Ubuntu, j’ai déployé des services conteneurisés avec Docker, dont un cloud personnel et un serveur multimédia, publiés sur Internet via Cloudflare Tunnel sans ouvrir de ports web, avec un VPN WireGuard pour y accéder à distance. Ce projet me fait pratiquer l’administration Linux, la conteneurisation et la sécurisation des accès.</p>
+          <div class="tag_group">
+            <span class="tag">Linux</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Cloudflare Tunnel</span>
+            <span class="tag">WireGuard</span>
+          </div>
+        </div>
+      </div>
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Projet personnel</div>
+          <h3>Roadbook</h3>
+          <p>Objectif : remplir automatiquement un roadbook de conduite. J’ai développé une application Python qui récupère les trajets depuis l’API Google Maps, ajoute les conditions météo de chaque trajet via une API météo, laisse choisir les trajets à ajouter et les exporte dans le fichier Excel au format demandé. D’abord en ligne de commande, elle est devenue une application web Flask déployée sur mon serveur derrière Gunicorn et Cloudflare Tunnel : un projet mené du script jusqu’à la mise en ligne.</p>
+          <div class="tag_group">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">API Google Maps</span>
+            <span class="tag">API météo</span>
+            <span class="tag">Excel</span>
+          </div>
+        </div>
+      </div>
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Hackathon · Oxford · février 2026</div>
+          <h3>LavaPayments</h3>
+          <p>Objectif : payer en stablecoin sans compte ni backend. En équipe avec Noah et Francisco Homero, nous avons réalisé une solution de paiement en USDT0 sur la blockchain Plasma, par QR code ou lien de facture. Un prototype réalisé dans le temps limité d’un hackathon.</p>
+          <div class="tag_group">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Plasma</span>
+            <span class="tag">USDT0</span>
+          </div>
+          <div class="button-group">
+            <a href="https://github.com/hugodvrs4/Lava-Payments" target="_blank" rel="noopener noreferrer" class="button is-secondary is-small w-button">Voir le code</a>
+          </div>
+        </div>
+      </div>
+      <div class="card on-inverse projet-card">
+        <div class="card_body">
+          <div class="eyebrow">Hackathon · Oxford</div>
+          <h3>PayCoin IC</h3>
+          <p>Objectif : effectuer des transactions en stablecoin depuis un téléphone, par simple scan de QR code. En équipe avec Noah, nous avons réalisé une interface web mobile de transactions en RLUSD sur XRPL. Une deuxième approche du paiement mobile, cette fois sur le réseau XRPL.</p>
+          <div class="tag_group">
+            <span class="tag">XRPL</span>
+            <span class="tag">RLUSD</span>
+          </div>
+          <div class="button-group">
+            <a href="https://github.com/hugodvrs4/PayCoin-IC" target="_blank" rel="noopener noreferrer" class="button is-secondary is-small w-button">Voir le code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ================ CERTIFICATIONS ================ -->
 <section class="section is-accent-tertiary">
@@ -139,75 +207,14 @@ Je développe mes connaissances à travers mes études et des projets pratiques.
   </div>
 </section>
 
-<!-- ================== PASSIONS ================== -->
-<section class="section is-inverse contact">
-  <div class="container">
-    <div class="header">
-      <div class="eyebrow">Ma touche personnelle</div>
-      <h2 class="heading_h2 max-width_large"><strong>Ce qui me définit</strong></h2>
-    </div>
-    <div class="w-layout-grid grid_2-col mobile-l-1-col gap-small">
-      <div class="card on-inverse">
-        <div class="card_body">
-          <div class="icon is-large margin-bottom_xsmall">
-            <!-- SVG Photographie -->
-            <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none">
-              <path d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" stroke-width="1.5" stroke-linejoin="round" stroke="currentColor"/>
-              <path d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" stroke-width="1.5" stroke-linejoin="round" stroke="currentColor"/>
-            </svg>
-          </div>
-          <h3>Photographie</h3>
-          <p class="margin-bottom_none">La photographie me permet de développer mon sens du détail et de l’observation. Capturer un moment, un lieu ou une ambiance m’aide à affiner ma précision et ma créativité.</p>
-        </div>
-      </div>
-      <div class="card on-inverse">
-        <div class="card_body">
-          <div class="icon is-large margin-bottom_xsmall">
-            <!-- SVG Scène -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none">
-              <path d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <h3>Scène</h3>
-          <p class="margin-bottom_none">Je pratique le théâtre et la danse, et j’ai obtenu en 2021 un certificat de diction avec distinction au Conservatoire de La Louvière. La scène m’a appris à m’exprimer avec aisance et à présenter devant un public.</p>
-        </div>
-      </div>
-      <div class="card on-inverse">
-        <div class="card_body">
-          <div class="icon is-large margin-bottom_xsmall">
-            <!-- SVG Voyages -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none">
-              <path d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <h3>Voyages</h3>
-          <p class="margin-bottom_none">J’adore voyager et découvrir d’autres cultures. C’est aussi l’occasion de pratiquer mes langues et de ramener quelques photos.</p>
-        </div>
-      </div>
-      <div class="card on-inverse">
-        <div class="card_body">
-          <div class="icon is-large margin-bottom_xsmall">
-            <!-- SVG Sport -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 256 256" fill="none">
-              <path d="M231.16,166.63l-28.63-14.31A47.74,47.74,0,0,1,176,109.39V80a8,8,0,0,0-8-8,48.05,48.05,0,0,1-48-48,8,8,0,0,0-12.83-6.37L30.13,76l-.2.16a16,16,0,0,0-1.24,23.75L142.4,213.66a8,8,0,0,0,5.66,2.34H224a16,16,0,0,0,16-16V180.94A15.92,15.92,0,0,0,231.16,166.63ZM224,200H151.37L40,88.63l12.87-9.76,38.79,38.79A8,8,0,0,0,103,106.34L65.74,69.11l40-30.31A64.15,64.15,0,0,0,160,87.5v21.89a63.65,63.65,0,0,0,35.38,57.24L224,180.94ZM70.8,184H32a8,8,0,0,1,0-16H70.8a8,8,0,1,1,0,16Zm40,24a8,8,0,0,1-8,8H48a8,8,0,0,1,0-16h54.8A8,8,0,0,1,110.8,208Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="currentColor"/>
-            </svg>
-          </div>
-          <h3>Sport</h3>
-          <p class="margin-bottom_none">Le sport me permet de maintenir discipline, régularité et équilibre. Il contribue à ma persévérance et à ma gestion du stress.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ==================== CV ====================== -->
-<section class="section is-accent-tertiary">
+<section class="section is-inverse">
   <div class="container is-small">
     <div class="flex_vertical is-x-center text-align_center">
       <h2 class="heading_h3">Découvrez mon parcours</h2>
       <p class="subheading">Mon CV retrace mes expériences étudiantes et mon chemin académique.</p>
       <div class="w-layout-grid grid_2-col tablet-1-col gap-small margin-bottom_medium parcours">
-        <div class="card card_body on-accent-tertiary">
+        <div class="card card_body on-inverse">
           <h3 class="eyebrow">Formation</h3>
           <ul role="list" class="margin_none w-list-unstyled parcours_list">
             <li class="parcours_item">
@@ -222,7 +229,7 @@ Je développe mes connaissances à travers mes études et des projets pratiques.
             </li>
           </ul>
         </div>
-        <div class="card card_body on-accent-tertiary">
+        <div class="card card_body on-inverse">
           <h3 class="eyebrow">Expériences</h3>
           <ul role="list" class="margin_none w-list-unstyled parcours_list">
             <li class="parcours_item">
@@ -248,7 +255,68 @@ Je développe mes connaissances à travers mes études et des projets pratiques.
           </ul>
         </div>
       </div>
-      <a href="assets/cv-hugo-devries.pdf" class="button on-accent-tertiary w-button">Télécharger mon CV</a>
+      <a href="assets/cv-hugo-devries.pdf" class="button is-secondary on-inverse w-button">Télécharger mon CV</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================== PASSIONS ================== -->
+<section class="section is-accent-tertiary contact">
+  <div class="container">
+    <div class="header">
+      <div class="eyebrow">Ma touche personnelle</div>
+      <h2 class="heading_h2 max-width_large"><strong>Ce qui me définit</strong></h2>
+    </div>
+    <div class="w-layout-grid grid_2-col mobile-l-1-col gap-small">
+      <div class="card on-accent-tertiary">
+        <div class="card_body">
+          <div class="icon is-large margin-bottom_xsmall">
+            <!-- SVG Photographie -->
+            <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none">
+              <path d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" stroke-width="1.5" stroke-linejoin="round" stroke="currentColor"/>
+              <path d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" stroke-width="1.5" stroke-linejoin="round" stroke="currentColor"/>
+            </svg>
+          </div>
+          <h3>Photographie</h3>
+          <p class="margin-bottom_none">La photographie me permet de développer mon sens du détail et de l’observation. Capturer un moment, un lieu ou une ambiance m’aide à affiner ma précision et ma créativité.</p>
+        </div>
+      </div>
+      <div class="card on-accent-tertiary">
+        <div class="card_body">
+          <div class="icon is-large margin-bottom_xsmall">
+            <!-- SVG Scène -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none">
+              <path d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Scène</h3>
+          <p class="margin-bottom_none">Je pratique le théâtre et la danse, et j’ai obtenu en 2021 un certificat de diction avec distinction au Conservatoire de La Louvière. La scène m’a appris à m’exprimer avec aisance et à présenter devant un public.</p>
+        </div>
+      </div>
+      <div class="card on-accent-tertiary">
+        <div class="card_body">
+          <div class="icon is-large margin-bottom_xsmall">
+            <!-- SVG Voyages -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none">
+              <path d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Voyages</h3>
+          <p class="margin-bottom_none">J’adore voyager et découvrir d’autres cultures. C’est aussi l’occasion de pratiquer mes langues et de ramener quelques photos.</p>
+        </div>
+      </div>
+      <div class="card on-accent-tertiary">
+        <div class="card_body">
+          <div class="icon is-large margin-bottom_xsmall">
+            <!-- SVG Sport -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 256 256" fill="none">
+              <path d="M231.16,166.63l-28.63-14.31A47.74,47.74,0,0,1,176,109.39V80a8,8,0,0,0-8-8,48.05,48.05,0,0,1-48-48,8,8,0,0,0-12.83-6.37L30.13,76l-.2.16a16,16,0,0,0-1.24,23.75L142.4,213.66a8,8,0,0,0,5.66,2.34H224a16,16,0,0,0,16-16V180.94A15.92,15.92,0,0,0,231.16,166.63ZM224,200H151.37L40,88.63l12.87-9.76,38.79,38.79A8,8,0,0,0,103,106.34L65.74,69.11l40-30.31A64.15,64.15,0,0,0,160,87.5v21.89a63.65,63.65,0,0,0,35.38,57.24L224,180.94ZM70.8,184H32a8,8,0,0,1,0-16H70.8a8,8,0,1,1,0,16Zm40,24a8,8,0,0,1-8,8H48a8,8,0,0,1,0-16h54.8A8,8,0,0,1,110.8,208Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Sport</h3>
+          <p class="margin-bottom_none">Le sport me permet de maintenir discipline, régularité et équilibre. Il contribue à ma persévérance et à ma gestion du stress.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
