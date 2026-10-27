@@ -76,12 +76,13 @@ Vous trouverez ici mon parcours, mes réalisations et mes projets.</p>
         <div class="card_body">
           <div class="eyebrow">Projet personnel</div>
           <h3>Homelab self-hosted</h3>
-          <p>Objectif : héberger mes propres services à la maison en limitant l’exposition de ma connexion. Sur un serveur Ubuntu, j’ai déployé des services conteneurisés avec Docker, dont un cloud personnel et un serveur multimédia, publiés sur Internet via Cloudflare Tunnel sans ouvrir de ports web, avec un VPN WireGuard pour y accéder à distance. Ce projet me fait pratiquer l’administration Linux, la conteneurisation et la sécurisation des accès.</p>
+          <p>Objectif : héberger mes propres services à la maison en limitant l’exposition de ma connexion. Sur un serveur Ubuntu, j’ai déployé des services conteneurisés avec Docker, dont un cloud personnel Nextcloud et un serveur multimédia, publiés sur Internet via Cloudflare Tunnel sans ouvrir de ports web. Ma box étant derrière un CGNAT, j’accède au serveur à distance via Tailscale. J’ai ajouté un panneau web de supervision en Python (Flask) qui suit l’état des services, lance des audits de sécurité (Trivy, Lynis, rkhunter) et m’alerte quand une mise à jour est disponible. Ce projet me fait pratiquer l’administration Linux, la conteneurisation et la sécurisation des accès.</p>
           <div class="tag_group">
             <span class="tag">Linux</span>
             <span class="tag">Docker</span>
             <span class="tag">Cloudflare Tunnel</span>
-            <span class="tag">WireGuard</span>
+            <span class="tag">Tailscale</span>
+            <span class="tag">Python</span>
           </div>
         </div>
       </div>
@@ -89,10 +90,11 @@ Vous trouverez ici mon parcours, mes réalisations et mes projets.</p>
         <div class="card_body">
           <div class="eyebrow">Projet personnel</div>
           <h3>Roadbook</h3>
-          <p>Objectif : remplir automatiquement un roadbook de conduite. J’ai développé une application Python qui récupère les trajets depuis l’API Google Maps, ajoute les conditions météo de chaque trajet via une API météo, laisse choisir les trajets à ajouter et les exporte dans le fichier Excel au format demandé. D’abord en ligne de commande, elle est devenue une application web Flask déployée sur mon serveur derrière Gunicorn et Cloudflare Tunnel : un projet mené du script jusqu’à la mise en ligne.</p>
+          <p>Objectif : remplir automatiquement un roadbook de conduite. J’ai développé une application Python qui récupère les trajets depuis l’API Google Maps, ajoute les conditions météo de chaque trajet via une API météo, laisse choisir les trajets à ajouter et les exporte dans le fichier Excel au format demandé. D’abord en ligne de commande, elle est devenue une application web Flask déployée sur mon serveur derrière Gunicorn et Cloudflare Tunnel. Elle gère désormais plusieurs utilisateurs : chacun a son compte, ses trajets stockés en base SQLite et son propre fichier Excel. Un projet mené du script jusqu’à la mise en ligne.</p>
           <div class="tag_group">
             <span class="tag">Python</span>
             <span class="tag">Flask</span>
+            <span class="tag">SQLite</span>
             <span class="tag">API Google Maps</span>
             <span class="tag">API météo</span>
             <span class="tag">Excel</span>
